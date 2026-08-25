@@ -1,36 +1,14 @@
 {
-  "anthropic_api_key": "sk-ant-...",
+  "anthropic_api_key": "",
   "caption_model": "claude-opus-5",
-  "cardnews_dir": "",
+  "account_context": "",
   "instagram": {
-    "username": "smu_ds_official",
+    "username": "",
     "headless": false,
-    "include_sources": true,
-    "follow_cta": "팔로우하고 제천·충북 재난안전 소식 받기 👉 @smu_ds_official"
+    "follow_cta": "",
+    "ai_label": false
   },
-  "hashtags": [
-    "재난안전",
-    "안전정보",
-    "안전수칙",
-    "재난뉴스",
-    "제천",
-    "제천시",
-    "충북",
-    "제천소식",
-    "지역뉴스",
-    "세명대학교",
-    "세명대",
-    "재난안전학과"
-  ],
-  "local_tags": [
-    "제천",
-    "제천시",
-    "충북",
-    "제천소식",
-    "지역뉴스",
-    "세명대학교",
-    "세명대",
-    "재난안전학과"
-  ],
-  "max_hashtags": 15
+  "hashtags": [],
+  "always_tags": [],
+  "max_hashtags": 30
 }
