@@ -17,7 +17,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-from core import LOGS_DIR, PROFILE_DIR, log, shot_path
+from core import PROFILE_DIR, log, shot_path
 
 IS_MAC = sys.platform == "darwin"
 IS_WIN = sys.platform.startswith("win")
@@ -175,6 +175,10 @@ def _click_dialog_button(driver, labels):
             except Exception:
                 continue
     return False
+
+
+def _click_next(driver):
+    return _click_dialog_button(driver, NEXT_LABELS)
 
 
 def _caption_box(driver):
